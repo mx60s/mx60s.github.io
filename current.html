@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maggie von Ebers</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:100" rel="stylesheet">
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;
+background-image:url("https://i.imgur.com/2dTklBE.jpg");
+background-size: 100%;
+color: #011330;}
+h1 {font-family: "Lobster", cursive;
+font-size:4.3em;
+color: #011330;
+}
+h2 {font-family:Raleway;
+	font-size: 3.5;
+	font-width: 1.0;}
+
+/* Style the tab */
+div.tab {
+    float: left;
+    background-color: #ffffff;
+    width: 20%;
+    height: 700px;
+	opacity: 0.5;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    display: flex;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    height: 100%;
+}
+</style>
+</head>
+<body>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Resume')">Resume</button>
+  <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
+  <button class="tablinks" onclick="openCity(event, 'Personal')">Personal</button>
+  <button class="tablinks" onclick="openCity(event, 'Contact Me')">Contact Me</button>
+</div>
+
+<div id="Home" class="tabcontent">
+<h1>Howdy!</h1>
+<h2>I'm Maggie von Ebers, a sophomore computer science major at</h2><h2>Texas A&M University.</h2><h2>I'm interested in artificial intelligence and machine learning.</h2>
+<p>
+</div>
+
+<div id="Resume" class="tabcontent">
+<h1>Resume</h1>
+<p>Texas A&M University, College Station, Texas April 2020 <br> 
+	Bachelor of Computer Science GPR: 2.7 <br>Shanley High School, Fargo, North Dakota May 2016<br> 
+	Graduated with honors Overall GPR: 3.87<br><br></p>
+	<h2>WORK EXPERIENCE</h2>
+	<p><h3>Sheyenne Greenhouse, West Fargo, North Dakota June-July 2017</h3><br>
+	Manager<br>
+	<ul>Tended a variety of plants</ul>
+	<ul>Answered questions about climate and durability</ul>
+	<ul>Handled money and managed store</ul></p>
+	
+	<h2>LEADERSHIP & ACTIVITIES</h2>
+	<p><h3>Stanford Pre-Collegiate Summer Institutes, Stanford, California July 2015</h3><br>
+	Student in Artificial Intelligence<br>
+	<ul>Learned the practical basics and concepts of artificial intelligence</ul>
+	<ul>Picked up several different coding languages (MatLab, Python, JavaScript) in order to be a team player and help to complete projects</ul> 
+	<ul>Led a group of peers to complete a research project and accompanying chatbot</ul>
+	Champe Fitzhugh Leadership Seminar, Castiglione-Fiorentino, Italy July 2016<br>
+	Student<br>
+	<ul>Learned leadership skills and resources for academic success through Texas A&M Honors</ul>
+	<ul>Participated in team-building activities</ul>
+	<ul>Lead a team of peers to complete a research project on local culture</ul> 
+	Freshmen Reaching Excellence in Engineering, Texas A&M University August 2016<br>
+	Leadership Organization<br> Member<br>
+	<h2>AWARDS AND ACHIEVEMENTS</h2>
+    National Merit Scholarship 2016<br> Finalist<br>
+	United States Presidential Scholar 2016<br>Nominated<br>
+	North Dakota Scholar 2015<br>
+	Presidential Endowment Scholarship 2016<br>
+	Recipient of Class of ‘75 Scholarship
+	<br><br>
+</p> 
+</div>
+
+<div id="Projects" class="tabcontent">
+	<h1>Projects</h1>
+	<p>Coming soon!</p>
+</div>
+
+<div id="Personal" class="tabcontent">
+  <h1>Personal</h1>
+  <p>Howdy! As said before, my name is Maggie von Ebers, I'm a sophomore computer science major, and I am the loudest and the proudest member of the fighting Texas Aggies Class of 2020 AY-AY-AY-AY!<br><br>
+	  I'm Des Moines, Iowa born and raised, though I have also lived in Rochester, New York and Fargo, North Dakota (where I now live when not at school). I have no connections whatsoever to Texas, but I was drawn to Aggieland's collaborative spirit, traditions, and of course the football games! <br><br>
+	  When I'm not working on a coding project or homework, you can find me reading, sketching, or riding horses. I love being an equestrian so much that I've ridden competitively at events across the nation for over ten years. When I moved from New York to North Dakota, I found that there was no competition scene there. Thanks to online classes and plenty of saved frequent-flier miles I was able to fly back and forth from ND to my horse and trainer in NY; I did this for all four years of highschool. <br><br>
+	  This time spent traveling is what I think gave me my start in computer science. On airplanes you can't access much of the internet, so I began to dig through Windows' file systems and gain a curiousity for all that went on beneath the GUI. After I found this love, I was lucky enough to be accepted to Stanford's Pre-Collegiate program studying Artificial Intelligence. That's when I knew I couldn't do anything else with my life!<br><br>
+  These days my main focus and interest is in machine learning and natural language processing, though I'd like to see what else the underlying theory can apply to.</p>
+</div>
+
+<div id="Contact Me" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+</html> 
