@@ -8,12 +8,23 @@
 			font-family: 'Droid Sans Mono', monospace;
 			padding: 1em 20em 0 20em;
 		}
+		
+		.container {
+			display: flex;
+			align-items: center;
+			
+		}
+		
 		#header {
 			display: inline;
 		}
 		#links {
+			flex:1;
+			vertical-align: middle;
+			text-align: center;
 			display: inline;
 			font-size:0.9em;
+			float:left;
 		}
 		h1 {
 			font-family: "Lobster", cursive;
@@ -25,24 +36,39 @@
 		p {
 			font-size:0.8em;
 		}
+		
+		a{
+			text-decoration: none;
+		}
 		</style>
 </head>
 
 <body>
-	<div id="header">
-		<h1>Maggie von Ebers</h1>
-	</div><div id="links">
+	<div class="container">
+		<div id="header">
+			<h1>Maggie von Ebers</h1>
+		</div>
+		<div id="links">
 			<a href="https://github.com/mx60s">github</a>
 			<a href="https://www.linkedin.com/in/maggie-v-619362102/">linkedin</a>
 			<a href="https://twitter.com/shellthatsang">twitter</a>
 			<a href="vonebersm@gmail.com">email</a>
 		</div>
-	
-	<div id="personal">
-		<h3>About</h3>
-		<p>I'm a sophomore computer science student at Texas A&M, interested in machine learning and artificial intelligence, especially in natural language processing.</p>
-		<p>I'm from Des Moines, Iowa; but I have lived in Rochester, New York; Fargo, North Dakota; and now College Station, Texas. I enjoy sketching, reading, and I have competed nationally in horseback riding for ten years.</p>
 	</div>
+	
+	<h3>About</h3>
+	<p>I'm a sophomore computer science student at Texas A&M, interested in machine learning and artificial intelligence, especially in natural language processing.</p>
+	<p>I'm from Des Moines, Iowa; but I have lived in Rochester, New York; Fargo, North Dakota; and now College Station, Texas. I enjoy sketching, reading, and I have competed nationally in horseback riding for ten years.</p>
+	
+	<h3>Projects</h3>
+	<p> Coming soon! </p>
+	
+	<h3>Relevant Coursework</h3>
+	<p>CSCE 121 - Intro to Program Design and Concepts (C++) - Fall 2017</p>
+	<p>CSCE 222 - Discrete Structures for Computing - Current</p>
+	
+	
+	
 </body>
 
 </html>
