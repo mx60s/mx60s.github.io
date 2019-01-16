@@ -16,24 +16,26 @@ class Room {
     this.east = null
     this.south = null
     this.west = null
+    this.numActions = 0 // number of actions carried out in room (for ghoul purposes)
   }
 
-  print () {
+  print (character) {
     var output = []
     output.push(this.name)
-    if(!this.dark){
+    if (!this.dark || character.light) {
       if (!this.visited) output.push(this.description)
       if (this.foe) output.push(this.foe.encounter())
 
-      //for (var i = 0; i < this.features.length; i++) {
-        //output.push(printItem(this.features[i]))
-      //}
-    }else{
-      output.push('The room is pitch black. You run the risk of being whisked away by the spirits that linger here.')
+      for (var i = 0; i < this.features.length; i++) {
+        output.push(printItem(this.features[i]))
+      }
+    } else {
+      output.push(
+        'The room is pitch black. You run the risk of being whisked away by the spirits that linger here.'
+      )
     }
-    this.visited = true
+    //this.visited = true
     return output
-    
   }
 
   getNeighbor (direction) {
