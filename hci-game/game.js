@@ -90,7 +90,8 @@ class Game {
       storage & retrival. I\'ve also been moving towards my minor in math with classes like linear 
       algebra and mathematical probability.<br>
       On another note, I\'m really sad to be done with this summer. My internship at Sandia National 
-      Laboratories was a good time, and I will especially miss working on supercomputers.`,
+      Laboratories was a good time, and I will especially miss working on supercomputers.<br>
+      Anyway seize the means of production <3<br>`,
       '',
       'You take the diary, though my life really isn\'t that interesting.'
     )
