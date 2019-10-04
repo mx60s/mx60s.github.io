@@ -19,7 +19,7 @@
 			text-align: left;
 			z-index: 70;
 			background-attachment: fixed;
-            padding-top: 2%;
+			padding-top: 2%;
 		}
 		.container {
 			align-items: center;
@@ -39,9 +39,11 @@
 			position: fixed;
 			z-index: 0;
 		}
-		canvas {
-			z-index: 0;
-			display: inline-block;
+		#canvas {
+			z-index: -1;
+			position: fixed;
+			left:0;
+   			top:0;
 		}
 		h1 {
 			font-family: 'Roboto Mono', monospace;
