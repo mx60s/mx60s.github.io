@@ -1,0 +1,44 @@
+# You must change these to your own details.
+[package]
+name = "perlinnoisewasm"
+description = "Perlin noise implemented with Rust and compiled to WebAssembly."
+version = "0.1.0"
+authors = ["Maggie von Ebers <vonebersm@gmail.com@gmail.com>"]
+categories = ["wasm"]
+readme = "README.md"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto=true
+panic='abort'
+codegen-units=1
+
+[features]
+# If you uncomment this line, it will enable `wee_alloc`:
+# default = ["wee_alloc"]
+
+[dependencies]
+# The `wasm-bindgen` crate provides the bare minimum functionality needed
+# to interact with JavaScript.
+wasm-bindgen = "*"
+wee_alloc = {version="*",optional=true}
+
+# The `web-sys` crate allows you to interact with the various browser APIs,
+# like the DOM.
+[dependencies.web-sys]
+version = "*"
+features = [
+  'console',
+  'ImageData',
+  'CanvasRenderingContext2d',
+]
+
+# The `console_error_panic_hook` crate provides better debugging of panics by
+# logging them with `console.error`. This is great for development, but requires
+# all the `std::fmt` and `std::panicking` infrastructure, so it's only enabled
+# in debug mode.
+[target."cfg(debug_assertions)".dependencies]
+console_error_panic_hook = "*"
