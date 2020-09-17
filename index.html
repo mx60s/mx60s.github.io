@@ -1,1 +1,117 @@
-<meta http-equiv="refresh" content="time; URL=static/index.html" />
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <title>Maggie von Ebers</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+		    margin: 0 !important;
+        padding: 0 !important;
+        background-attachment: fixed;
+      }
+      .container {
+        position: fixed;
+        top: 45%;
+        left: 10%;
+        bottom: 10%;
+        margin-top: -80px;
+        margin-left: -50px;
+        background-color: white;
+        opacity: 85%;
+		    font-family: 'Abel', sans-serif;
+        padding-right: 1%;
+        text-align: left;
+      }
+      #header {
+        display: inline;
+      }
+      #links {
+        font-size: 0.9em;
+        z-index: 70;
+        text-align: center;
+      }
+      #canvas {
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: none;
+      }
+      h1 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 2.2em;
+        z-index: 70;
+        padding-left: 15px;
+      }
+      h3 {
+        font-size: 1em;
+        z-index: 70;
+        padding-left: 15px;
+      }
+      p {
+        font-size: 0.8em;
+        padding-left: 30px;
+        z-index: 70;
+      }
+      a {
+        padding-right: 1%;
+        text-decoration: none;
+        color: #011c8a;
+        z-index: 70;
+      }
+      .resume {
+        text-align: center;
+        font-size: 0.8em;
+        z-index: 70;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="header">
+        <h1>Maggie von Ebers</h1>
+      </div>
+      <div id="links">
+        <a href="https://github.com/mx60s">github</a>
+        <a href="https://www.linkedin.com/in/maggie-v-619362102/">linkedin</a>
+        <a href="mailto:vonebersm@gmail.com">email</a>
+      </div>
+
+      <h3>about</h3>
+      <p>
+        I just recently got my computer science degree from Texas A&M University
+        with a minor in math, and I'm a new software engineer at Dell.
+      </p>
+
+      <h3>languages & skills</h3>
+      <p>C++, Java, Python, Javascript, Matlab</p>
+      <p></p>
+      <div class="resume">
+        <a href="mve-resume.pdf" download="Resume">download my resume</a>
+        <br />
+        <a href="adventure-game.html">Play my (unfinished) text adventure!</a>
+        <br />
+        <br />
+      </div>
+      <p>
+        Like my background? Thanks! It's procedurally-generated Perlin noise. Refresh if you don't see anything.
+      </p>
+      <br />
+	</div>
+	
+    <canvas id="perlin-noise-canvas"></canvas>
+    <script src="index.js"></script>
+  </body>
+</html>
