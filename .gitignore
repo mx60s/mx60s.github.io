@@ -6,7 +6,6 @@ node_modules
 /wasm-pack.log
 Cargo.lock
 Cargo.toml
-CNAME
 package-lock.json
 package.json
 tsconfig.json
