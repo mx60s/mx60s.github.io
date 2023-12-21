@@ -8,7 +8,7 @@ body {
 
 .container {
     position: fixed; /* Keep the container fixed in the viewport */
-    left: 10%; /* Position from the left */
+    left: 13%; /* Position from the left */
     bottom: 5%; /* Position from the bottom */
     max-width: 80%; /* Maximum width to allow resizing */
     background-color: white;
