@@ -1,5 +1,18 @@
-Here you can say lots of fun things about your site.
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
 
-Maybe say a some things about yourself.
+<h1>{{ page.title }}</h1>
 
-Or maybe what you plan to blog about.
+<div>
+  {% for post in site.posts %}
+    <article>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date: "%B %d, %Y" }}</p>
+      <p>{{ post.excerpt }}</p>
+    </article>
+  {% endfor %}
+</div>
+
