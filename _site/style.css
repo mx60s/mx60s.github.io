@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    font-family: 'Abel', sans-serif;
+}
+
+.container {
+    position: fixed; /* Keep the container fixed in the viewport */
+    left: 13%; /* Position from the left */
+    bottom: 5%; /* Position from the bottom */
+    max-width: 80%; /* Maximum width to allow resizing */
+    background-color: white;
+    opacity: 92%;
+    padding: 1%;
+    text-align: left;
+}
+
+/* Header Styles */
+header h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.2em;
+    padding-left: 15px;
+}
+
+/* Navigation Links */
+nav#links {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+nav#links a {
+    text-decoration: none;
+    color: #011c8a;
+    padding-right: 1%;
+}
+
+/* Content Section Styles */
+section h3 {
+    font-size: 1em;
+    padding-left: 15px;
+}
+
+section p {
+    font-size: 0.8em;
+    padding-left: 30px;
+}
+
+/* Resume Section */
+footer.resume {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/* Canvas Style */
+#perlin-noise-canvas {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
