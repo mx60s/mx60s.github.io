@@ -30,11 +30,19 @@ titles_from_headings:
   strip_title: true
   collections: true
 
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+    source: blog/_posts
+
 defaults:
-  - scope:
-      path: ""
-      type: posts
+  -
+    scope:
+      path: "blog/_posts"
+      type: "posts"
     values:
-      tags: Other
+      layout: post
+
 
 permalink: /blog/:title/
