@@ -8,7 +8,8 @@ twitter_username: "ebervector"
 github_username: "mx60s"
 linkedin_username: "maggie-v"
 
-baseurl: ""#"mvonebers.com"
+baseurl: ""
+url: "mvonebers.com"
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
