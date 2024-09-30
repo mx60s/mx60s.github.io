@@ -20,7 +20,8 @@ for your brain than putting your thoughts into some real-life format. To-dos
 need to be written down to get done. Research ideas need to be torn apart by
 your professor to become viable. Dissatisfaction with your life, or even
 just natural latent energy, needs to be turned into a sport or writing or
-relationships or lasting change, or it'll become rumination and worse.
+relationships or lasting change, or it'll become rumination and worse. I get that
+this is obvious to the general population -- it was not obvious to me.
 
 So I'm going to start writing about research topics that I think are cool. I
 have no idea if they'll be worthwhile or readable for a long time, but I'm going to
