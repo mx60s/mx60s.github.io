@@ -7,7 +7,7 @@ author: Maggie von Ebers
 tags: [ai, alignment, philosophy]
 ---
 
-# The Prix Fixe: Catholic Virtue Ethics as an Alignment Framework
+# Virtue Ethics, Alignment, Antiqua et Nova
 
 I have like an hour to write this up and I am not a Catholic scholar and I have not done a lot of the requisite studying of the canonical alignment texts, so please forgive any minor theological errors and feel free to admonish Claude and I about major ones. But today I wanted to write about the internal consistency of virtue ethics in Catholicism — I'm pretty confident that this can be useful to some people in understanding why Catholics (and potentially Christians) might have certain attitudes to AI development, and I think it could also be useful down the line to guide smarter people in their development of useful alignment tactics.
 
