@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Prix Fixe: Catholic Virtue Ethics as an Alignment Framework"
+title:  "Virtue Ethics, Alignment, Antiqua et Nova"
 date:   2026-02-12 10:00:00 +0000
 categories: jekyll update
 author: Maggie von Ebers
