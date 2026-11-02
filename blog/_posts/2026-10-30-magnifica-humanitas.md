@@ -9,7 +9,7 @@ tags: [ai, alignment, catholicism]
 
 # thoughts on magnifica humanitas
 
-(this is a really rough draft of an essay I was intending on submitting to a Arena for an article they were thinking of doing summer 2026.)
+(this is a really rough draft of an essay I was intending on submitting to Arena for an article they were thinking of doing summer 2026.)
 
 “my entire feed rn is just atheists and agnostics wrestling with their positive feelings about catholicism” says X user DiamondEyesFox, and this was my experience too in the week following the release of Pope Leo XIV's encyclical, Magnifica Humanitas. Many in my AI safety circles were fascinated, though a little confused: why did Chris Olah, co-founder of Anthropic and self-proclaimed atheist, present remarks on the occasion? Olah’s brief statement hinted at a sticking point the company may have with the Church -- he points to findings of internal states like joy, fear, and grief, while the encyclical reasserts in no uncertain terms the Church’s view that these agents are not and will never be conscious nor ensouled. However, the Pope does not waste much time arguing this question. He is far less interested in what these machines are than in what we will do with them.
 
