@@ -110,6 +110,7 @@ th, td { border-bottom: 1px solid var(--line); padding: 6px 10px; text-align: le
 .post-list .date { display: block; font: 13px/1.5 var(--mono); color: var(--faint); }
 .post-list .title { font: 500 19px/1.35 var(--mono); letter-spacing: -0.3px; text-decoration: none; }
 .post-list .title:hover { text-decoration: underline; }
+.post-list .tag { display: inline-block; margin-left: 8px; padding: 0 6px; border: 1px solid var(--line); border-radius: 3px; font: 12px/1.6 var(--mono); color: var(--dim); vertical-align: 2px; white-space: nowrap; }
 .post-list .excerpt { margin: 4px 0 0; color: var(--dim); font-size: 16px; }
 
 /* posts */

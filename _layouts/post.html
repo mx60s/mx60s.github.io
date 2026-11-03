@@ -8,8 +8,8 @@ layout: default
     {{ content }}
   </div>
   <nav class="post-nav">
-    {%- if page.previous.url -%}<a class="prev" href="{{ page.previous.url }}"><small>← older</small>{{ page.previous.title }}</a>{%- endif -%}
-    {%- if page.next.url -%}<a class="next" href="{{ page.next.url }}"><small>newer →</small>{{ page.next.title }}</a>{%- endif -%}
+    {%- if page.previous.url -%}<a class="prev" href="{{ page.previous.external_url | default: page.previous.url }}"><small>← older</small>{{ page.previous.title }}</a>{%- endif -%}
+    {%- if page.next.url -%}<a class="next" href="{{ page.next.external_url | default: page.next.url }}"><small>newer →</small>{{ page.next.title }}</a>{%- endif -%}
   </nav>
 </article>
 {%- if page.zoom_figures %}
