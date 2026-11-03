@@ -132,3 +132,10 @@ th, td { border-bottom: 1px solid var(--line); padding: 6px 10px; text-align: le
   .home h1 { font-size: 28px; }
   h2 { font-size: 20px; }
 }
+
+/* click-to-enlarge figures (posts with zoom_figures: true) */
+.zoomable .post-body img { cursor: zoom-in; }
+.zoom-overlay { position: fixed; inset: 0; z-index: 50; display: flex; align-items: center; justify-content: center; padding: 3vw; background: rgba(20, 20, 18, 0.72); cursor: zoom-out; animation: zoom-fade 0.15s ease-out; }
+.zoom-overlay img { max-width: 94vw; max-height: 92vh; width: auto; height: auto; background: #fff; border-radius: 6px; box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35); animation: zoom-pop 0.18s ease-out; }
+@keyframes zoom-fade { from { opacity: 0; } }
+@keyframes zoom-pop { from { transform: scale(0.92); } }

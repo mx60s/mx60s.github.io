@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article>
+<article{% if page.zoom_figures %} class="zoomable"{% endif %}>
   <h1 class="post-title">{{ page.title | escape }}</h1>
   <p class="meta">{{ page.date | date: "%B %-d, %Y" }}</p>
   <div class="post-body">
@@ -12,3 +12,23 @@ layout: default
     {%- if page.next.url -%}<a class="next" href="{{ page.next.url }}"><small>newer →</small>{{ page.next.title }}</a>{%- endif -%}
   </nav>
 </article>
+{%- if page.zoom_figures %}
+<script>
+  // click a figure to enlarge it; click anywhere (or press Escape) to close
+  document.querySelectorAll(".zoomable .post-body img").forEach(function (img) {
+    img.addEventListener("click", function () {
+      var o = document.createElement("div");
+      o.className = "zoom-overlay";
+      var big = document.createElement("img");
+      big.src = img.currentSrc || img.src;
+      big.alt = img.alt;
+      o.appendChild(big);
+      function close() { o.remove(); document.removeEventListener("keydown", onKey); }
+      function onKey(e) { if (e.key === "Escape") close(); }
+      o.addEventListener("click", close);
+      document.addEventListener("keydown", onKey);
+      document.body.appendChild(o);
+    });
+  });
+</script>
+{%- endif %}
