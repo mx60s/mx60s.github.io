@@ -100,8 +100,9 @@ th, td { border-bottom: 1px solid var(--line); padding: 6px 10px; text-align: le
 .home .links a { color: #011c8a; text-decoration: none; }
 .home h3 { font-family: "Abel", sans-serif; font-size: 21px; font-weight: 400; letter-spacing: 0; margin: 26px 0 8px; }
 .home p { margin: 0 0 12px; }
-.home footer.resume { text-align: center; font-size: 16px; margin-top: 30px; padding-top: 14px; border-top: 1px solid var(--line); }
-.home footer.resume p { margin: 8px 0 0; color: var(--dim); }
+.home footer.resume { text-align: center; font-size: 16px; margin-top: 30px; }
+.home footer.resume p { margin: 0; padding-top: 12px; color: var(--dim); }
+.home footer.resume hr { width: 80px; margin: 16px auto 0; border: 0; border-top: 1px solid var(--line); }
 
 /* blog list */
 .post-list { list-style: none; padding: 0; margin: 0; }
