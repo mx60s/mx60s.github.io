@@ -6,7 +6,7 @@
   {%- seo -%}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
   {%- feed_meta -%}
 </head>
@@ -23,9 +23,6 @@
   {%- endunless %}
   <main class="page{% if page.body_class %} {{ page.body_class }}{% endif %}">
     {{ content }}
-    <footer class="site-footer">
-      The background is Perlin noise, drawn fresh on each visit; it's meant to look a bit like an elevation map.
-    </footer>
   </main>
   <canvas id="perlin-noise-canvas"></canvas>
   <script src="/assets/js/index.js"></script>

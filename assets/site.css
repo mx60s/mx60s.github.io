@@ -93,12 +93,15 @@ table { border-collapse: collapse; width: 100%; font-size: 15px; display: block;
 th, td { border-bottom: 1px solid var(--line); padding: 6px 10px; text-align: left; }
 .meta { font: 14px/1.5 var(--mono); color: var(--faint); margin: 0 0 26px; }
 
-/* homepage */
-.home h1 { font-size: 34px; margin-bottom: 4px; }
-.home .links { font: 15px/1.6 var(--mono); margin: 0 0 30px; display: flex; flex-wrap: wrap; gap: 4px 18px; }
-.home h2 { font-size: 15px; text-transform: lowercase; color: var(--accent); margin: 32px 0 10px; letter-spacing: 0.2px; }
-.home .item { margin: 0 0 12px; }
-.home .item .where { color: var(--dim); }
+/* homepage: the original Abel text with the Roboto Mono name */
+.home { font-family: "Abel", sans-serif; font-size: 19px; line-height: 1.55; }
+.home h1 { font-size: 36px; margin-bottom: 6px; }
+.home .links { margin: 0 0 26px; display: flex; flex-wrap: wrap; gap: 4px 18px; }
+.home .links a { color: #011c8a; text-decoration: none; }
+.home h3 { font-family: "Abel", sans-serif; font-size: 21px; font-weight: 400; letter-spacing: 0; margin: 26px 0 8px; }
+.home p { margin: 0 0 12px; }
+.home footer.resume { text-align: center; font-size: 16px; margin-top: 30px; padding-top: 14px; border-top: 1px solid var(--line); }
+.home footer.resume p { margin: 8px 0 0; color: var(--dim); }
 
 /* blog list */
 .post-list { list-style: none; padding: 0; margin: 0; }
