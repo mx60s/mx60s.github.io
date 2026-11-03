@@ -5,6 +5,7 @@ date: 2026-11-02 10:00:00 +0000
 author: Maggie von Ebers
 tags: [ai, interpretability]
 excerpt: "Earlier this year, for a work trial, I trained GRPO LoRAs on Big Five (OCEAN) personality traits and found that scaling, adding, and subtracting them changed behavior roughly the way you would hope: half an adapter gave about half the effect, and subtracting an adapter pushed the other way."
+description: "Earlier this year, for a work trial, I trained GRPO LoRAs on Big Five (OCEAN) personality traits and found that scaling, adding, and subtracting them changed behavior roughly the way you would hope: half an adapter gave about half the effect, and subtracting an adapter pushed the other way."
 ---
 
 [Neuron browser](/persona-neurons/) · [code](https://github.com/mx60s/persona-neurons) · [data](https://github.com/mx60s/persona-neurons/releases/tag/v2-data)
