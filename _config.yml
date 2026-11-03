@@ -9,12 +9,11 @@ github_username: "mx60s"
 linkedin_username: "maggie-v"
 
 baseurl: ""
-url: "mvonebers.com"
+url: "https://mvonebers.com"
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
 
 rss: rss
 
@@ -25,6 +24,18 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - node_modules
+  - Cargo.toml
+  - Cargo.lock
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - Gemfile
+  - Gemfile.lock
+  - _site
 
 titles_from_headings:
   strip_title: true

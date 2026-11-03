@@ -147,7 +147,7 @@ __webpack_public_path__ = window.location.origin + '/assets/js/';
         return Object.prototype.hasOwnProperty.call(e, t);
     };
 
-    a.p = "assets/js/";
+    a.p = "/assets/js/";
     a.oe = function(e) {
         throw console.error(e), e;
     };

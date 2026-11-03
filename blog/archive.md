@@ -1,13 +1,8 @@
 ---
-layout: page
-title: Blog Archive
+layout: default
+title: Blog archive
+permalink: /blog/archive/
+redirect_to: /blog/
 ---
-
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.date | date: "%B %Y" }} - {{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<meta http-equiv="refresh" content="0; url=/blog/">
+<p>The archive is now part of the <a href="/blog/">blog page</a>.</p>
