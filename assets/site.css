@@ -21,7 +21,7 @@ body {
   background-color: #f6f6f2;
   background-attachment: fixed !important;
   background-position: center top !important;
-  font: 18px/1.65 var(--serif);
+  font: 17px/1.65 var(--serif);
   display: flex;
   flex-direction: column;
 }
@@ -43,7 +43,6 @@ img { max-width: 100%; height: auto; }
   gap: 6px 22px;
   background: var(--card);
   border-radius: 10px 10px 0 0;
-  border: 1px solid rgba(0, 0, 0, 0.07);
   border-bottom: 1px solid var(--line);
   font-family: var(--mono);
 }
@@ -60,12 +59,9 @@ img { max-width: 100%; height: auto; }
   padding: 30px 28px 34px;
   background: var(--card);
   border-radius: 0 0 10px 10px;
-  border: 1px solid rgba(0, 0, 0, 0.07);
-  border-top: 0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 /* homepage: no site header, a narrower card with more of the background around it */
-.page.home { max-width: 680px; margin: 12vh auto 10vh; border-radius: 10px; border-top: 1px solid rgba(0, 0, 0, 0.07); }
+.page.home { max-width: 680px; margin: 12vh auto 10vh; border-radius: 10px; }
 .site-footer {
   font: 13px/1.5 var(--mono);
   color: var(--faint);
@@ -94,7 +90,7 @@ th, td { border-bottom: 1px solid var(--line); padding: 6px 10px; text-align: le
 .meta { font: 14px/1.5 var(--mono); color: var(--faint); margin: 0 0 26px; }
 
 /* homepage: the original Abel text with the Roboto Mono name */
-.home { font-family: "Abel", sans-serif; font-size: 19px; line-height: 1.55; }
+.home { font-family: "Abel", sans-serif; font-size: 18px; line-height: 1.55; }
 .home h1 { font-size: 36px; margin-bottom: 6px; }
 .home .links { margin: 0 0 26px; display: flex; flex-wrap: wrap; gap: 4px 18px; }
 .home .links a { color: #011c8a; text-decoration: none; }
@@ -124,7 +120,7 @@ th, td { border-bottom: 1px solid var(--line); padding: 6px 10px; text-align: le
 .post-nav small { display: block; color: var(--faint); }
 
 @media (max-width: 800px) {
-  body { font-size: 17px; }
+  body { font-size: 16px; }
   .site-header, .page, .page.home { border-radius: 0; margin: 0; max-width: none; }
   .page.home { margin: 40px 0 0; }
   .site-header { padding: 14px 18px; }
