@@ -5,7 +5,7 @@ date: 2026-11-15 12:00:00 -0800
 author: Maggie von Ebers
 tags: [misc]
 excerpt: "This wouldn't have been possible without andrew.gr."
-description: "Every payphone I claimed in Riley Walz's PayphoneGo, with the messages I left as first caller."
+description: "The messages I left as first caller at payphones in Riley Walz's PayphoneGo."
 ---
 
 This wouldn't have been possible without [https://andrew.gr/](https://andrew.gr/).
