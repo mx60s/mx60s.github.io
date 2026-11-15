@@ -1,5 +1,15 @@
-.DS_Store
-node_modules
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# GitHub Pages pins gem versions itself; the lockfile only matters locally
+Gemfile.lock
+vendor/
+
+# Local tooling for the Perlin-noise background (Rust -> wasm via webpack)
+node_modules/
 /dist
 /target
 /pkg
@@ -10,3 +20,5 @@ package-lock.json
 package.json
 tsconfig.json
 webpack.config.js
+
+.DS_Store

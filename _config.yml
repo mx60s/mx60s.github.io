@@ -1,42 +1,25 @@
 title: "Maggie von Ebers"
 author: "Maggie von Ebers"
 description: "Cognitive maps, ephemera, etc."
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-email: "vonebersm@gmail.com"
+url: "https://mvonebers.com"
+baseurl: ""
+
+# Used by jekyll-seo-tag for social cards
 twitter_username: "ebervector"
 github_username: "mx60s"
-linkedin_username: "maggie-v"
 
-baseurl: ""
-url: "https://mvonebers.com"
+permalink: /blog/:title/
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-
-rss: rss
-
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-exclude:
-  - node_modules
-  - Cargo.toml
-  - Cargo.lock
-  - package.json
-  - package-lock.json
-  - webpack.config.js
-  - Gemfile
-  - Gemfile.lock
-  - _site
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
 
+# jekyll-titles-from-headings is on by default on GitHub Pages
 titles_from_headings:
   strip_title: true
   collections: true
@@ -48,4 +31,14 @@ defaults:
     values:
       tags: Other
 
-permalink: /blog/:title/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - Cargo.toml
+  - Cargo.lock
+  - package.json
+  - package-lock.json
+  - webpack.config.js

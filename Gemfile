@@ -1,7 +1,5 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
-gem 'jekyll-seo-tag'
-gem 'jekyll-feed'
-gem 'jekyll-sitemap'
-
+# Same gem versions GitHub Pages uses to build the live site.
+gem "github-pages", group: :jekyll_plugins
+gem "webrick" # needed by `jekyll serve` on Ruby 3+
