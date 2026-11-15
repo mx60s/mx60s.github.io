@@ -95,3 +95,9 @@ These are the 20 messages I left as the first caller, in the order I left them.
 **2025 Morse Ave, Sacramento**
 
 <audio controls preload="none" src="/assets/payphone-go/420.mp3"></audio>
+
+## On NPR
+
+I was on All Things Considered the day before the game ended: [A Game Challenges Californians To Find A Working Payphone](https://www.npr.org/2026/03/14/nx-s1-5737582/a-game-challenges-californians-to-find-a-working-payphone) (March 14, 2026).
+
+<iframe src="https://www.npr.org/player/embed/nx-s1-5737582/nx-s1-9688362" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
